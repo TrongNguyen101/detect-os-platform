@@ -12,11 +12,11 @@ class Program
         }
         else if (osPlatform.IsLinux())
         {
-            Console.WriteLine("We're on Linux");
+            Console.WriteLine("We're on Linux!");
         }
         else if (osPlatform.IsWindows())
         {
-            Console.WriteLine("We're on Windows");
+            Console.WriteLine("We're on Windows!");
         }
     }
 }
